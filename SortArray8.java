@@ -17,11 +17,7 @@ import java.util.stream.Collectors;
 public class SortArray8 {
     
     public static void main(String[] args) {
-        int intArray[] = {55,10,15,20,25,70,35,40,45,50,55,60,65,30,75,80,85,90,95,100}; 
-        int sum=0;
-        sum=Arrays.stream(intArray).sum();
-        System.out.println("Sum Is\t"+sum);
-        
+        int intArray[] = {55,10,15,20,25,70,35,40,45,50,55,60,65,30,75,80,85,90,95,100};  
         List<Integer> list=new ArrayList<>();
         for(int i=0;i<intArray.length;i++)
         {
